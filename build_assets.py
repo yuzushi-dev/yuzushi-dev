@@ -305,10 +305,6 @@ def build_row_svg(repo: dict, index: int, total_rows: int = 5) -> str:
         segmeter_bars.append(f'<rect x="{bx}" y="20" width="6" height="8" fill="{b_color}"/>')
     segmeter_svg = f'<g role="meter" aria-label="System status" aria-valuenow="{seg_level}" aria-valuemin="0" aria-valuemax="5">{"".join(segmeter_bars)}</g>'
 
-    # Embedded Tabler icon
-    icon_name = repo.get("icon", "brain")
-    icon_paths = ICONS.get(icon_name, ICONS["brain"])
-    icon_svg = f'<g transform="translate(16, 22) scale(0.85)" fill="none" stroke="#ff4d62" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="rth-icon">{icon_paths}</g>'
 
     # Extra breathing cyan border for RIS
     ris_extra_border = ""
@@ -351,8 +347,7 @@ def build_row_svg(repo: dict, index: int, total_rows: int = 5) -> str:
         + '<g clip-path="url(#rc)"><rect width="830" height="64" fill="url(#scan)"/></g>'
         + f'<rect class="rth" x="10" y="9" width="84" height="46" fill="{init_th_fill}" stroke="{init_th_stroke}" stroke-width="1"/>'
         + '<path d="M12,17 V11 H18 M86,53 H92 V47" stroke="#ff4d62" stroke-width="1" fill="none" opacity="0.8"/>'
-        + icon_svg
-        + f'<text x="64" y="37" font-family="{FONT_MONO}" font-size="13.5" fill="#ff4d62" letter-spacing="1.5" text-anchor="middle" font-weight="700">{escaped_callsign}</text>'
+        + f'<text x="52" y="38" font-family="{FONT_MONO}" font-size="15" fill="#ff4d62" letter-spacing="3" text-anchor="middle" font-weight="700">{escaped_callsign}</text>'
         + beacon_svg
         + f'<text x="126" y="27" font-family="{FONT_MONO}" font-size="14.5" fill="{init_title_fill}" letter-spacing="2" text-anchor="start" font-weight="700" class="rti">{escaped_title}</text>'
         + f'<text x="126" y="47" font-family="{FONT_MONO}" font-size="11" fill="{init_desc_fill}" letter-spacing="0.2" text-anchor="start" font-weight="500" class="rde">{escaped_desc}</text>'
