@@ -5,24 +5,25 @@
 
 **I build private agent systems.** The model is the easy part; my work is the harness around it: memory that survives the session, retrieval that cites its sources, and governance you can actually inspect. Local-first where the data is personal, cloud where it isn't.
 
-The book, [*Private Agent Systems*](https://www.amazon.com/dp/B0H4RQMJG3), is out on Amazon. It treats agents as production software, not prompt experiments. The code is here: **Relic** models who you are over time, so a reflective agent can carry your context forward without pretending to be you, while **Amber** answers over large document collections by fusing vector search with knowledge-graph reasoning.
+The book, [*Private Agent Systems*](https://www.amazon.com/dp/B0H4RQMJG3), is out on Amazon. It treats agents as production software, not prompt experiments. The code is here: **Relic** models who you are over time, so a reflective agent can carry your context forward without pretending to be you, while **Amber** answers over large document collections by fusing vector search with knowledge-graph reasoning. **Relic Interface System** provides the brutalist tactical HUD and telemetry design system, and **session-handoff** migrates active agent sessions between Claude Code and Codex.
 
 <div align="center">
   <img src="assets/divider.svg" width="830" alt="">
 </div>
 
 <div align="center">
-  <a href="https://github.com/yuzushi-dev/Relic"><img src="assets/row-relic.svg" width="830" alt="Relic: longitudinal personality modeling for reflective agents. Python, live demo."></a>
-  <a href="https://github.com/yuzushi-dev/Amber"><img src="assets/row-amber.svg" width="830" alt="Amber: hybrid GraphRAG, vector search fused with knowledge-graph reasoning. Python."></a>
-  <a href="https://github.com/yuzushi-dev/Private-Agent-Systems"><img src="assets/row-pas.svg" width="830" alt="Private Agent Systems: the book's companion repo. Templates, source register, supplements."></a>
-  <a href="https://github.com/yuzushi-dev/whispir"><img src="assets/row-whispir.svg" width="830" alt="Whispir: offline transcription and translation with faster-whisper and MarianMT, in Docker."></a>
-  <a href="https://github.com/yuzushi-dev/Offline-NFC-Presence-Gate"><img src="assets/row-nfc-gate.svg" width="830" alt="Offline NFC Presence Gate: an implanted VivoKey Spark 2 as an offline possession factor."></a>
+  <a href="https://github.com/yuzushi-dev/Relic"><img src="assets/row-relic.svg" width="830" alt="Relic: longitudinal personality modeling for reflective agents. With provenance."></a>
+  <a href="https://github.com/yuzushi-dev/Amber"><img src="assets/row-amber.svg" width="830" alt="Amber: hybrid GraphRAG: Milvus vector search fused with Neo4j knowledge graph."></a>
+  <a href="https://github.com/yuzushi-dev/Private-Agent-Systems"><img src="assets/row-pas.svg" width="830" alt="Private Agent Systems: official companion repo: book templates, source register &amp; supplements."></a>
+  <a href="https://github.com/yuzushi-dev/relic-interface-system"><img src="assets/row-ris.svg" width="830" alt="Relic Interface System: brutalist tactical HUD &amp; telemetry system: Web, React, Tailwind &amp; Compose."></a>
+  <a href="https://github.com/yuzushi-dev/session-handoff"><img src="assets/row-session-handoff.svg" width="830" alt="session-handoff: migrate active agent sessions &amp; create handoffs: Claude Code &amp; Codex."></a>
 </div>
 
 <div align="center">
-  <a href="https://www.amazon.com/dp/B0H4RQMJG3"><img src="https://img.shields.io/badge/BOOK-Private_Agent_Systems-ff003c?style=flat-square&labelColor=120a0d" alt="Private Agent Systems on Amazon"></a>
-  <a href="https://yuzushi-dev.github.io/Relic/"><img src="https://img.shields.io/badge/LIVE-Relic_demo-00e5ff?style=flat-square&labelColor=120a0d" alt="Relic live demo"></a>
-  <a href="https://github.com/yuzushi-dev/Relic/stargazers"><img src="https://img.shields.io/github/stars/yuzushi-dev/Relic?style=flat-square&label=RELIC&color=ffe23a&labelColor=120a0d" alt="Relic stars"></a>
+  <a href="https://www.amazon.com/dp/B0H4RQMJG3"><img src="https://img.shields.io/badge/BOOK-Private_Agent_Systems-ff003c?style=flat-square&amp;labelColor=120a0d" alt="Private Agent Systems on Amazon"></a>
+  <a href="https://yuzushi-dev.github.io/Relic/"><img src="https://img.shields.io/badge/LIVE-Relic_demo-00e5ff?style=flat-square&amp;labelColor=120a0d" alt="Relic live demo"></a>
+  <a href="https://github.com/yuzushi-dev/Relic/stargazers"><img src="https://img.shields.io/github/stars/yuzushi-dev/Relic?style=flat-square&amp;label=RELIC&amp;color=ffe23a&amp;labelColor=120a0d" alt="Relic stars"></a>
+  <a href="https://github.com/yuzushi-dev/relic-interface-system"><img src="https://img.shields.io/badge/HUD-RIS_v2.8.0-3df0ff?style=flat-square&amp;labelColor=120a0d" alt="Relic Interface System"></a>
 </div>
 
 <div align="center">
