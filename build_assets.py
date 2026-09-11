@@ -376,18 +376,18 @@ def build_readme_md(repos: list) -> str:
 The book, [*Private Agent Systems*](https://www.amazon.com/dp/B0H4RQMJG3), is out on Amazon. It treats agents as production software, not prompt experiments. The code is here: **Relic** models who you are over time, so a reflective agent can carry your context forward without pretending to be you, while **Amber** answers over large document collections by fusing vector search with knowledge-graph reasoning. **Relic Interface System** provides the brutalist tactical HUD and telemetry design system, and **session-handoff** migrates active agent sessions between Claude Code and Codex.
 
 <div align="center">
+  <a href="https://www.amazon.com/dp/B0H4RQMJG3"><img src="https://img.shields.io/badge/BOOK-Private_Agent_Systems-ff003c?style=flat-square&amp;labelColor=120a0d" alt="Private Agent Systems on Amazon"></a>
+  <a href="https://yuzushi-dev.github.io/Relic/"><img src="https://img.shields.io/badge/LIVE-Relic_demo-00e5ff?style=flat-square&amp;labelColor=120a0d" alt="Relic live demo"></a>
+  <a href="https://github.com/yuzushi-dev/Relic/stargazers"><img src="https://img.shields.io/github/stars/yuzushi-dev/Relic?style=flat-square&amp;label=RELIC&amp;color=ffe23a&amp;labelColor=120a0d" alt="Relic stars"></a>
+  <a href="https://github.com/yuzushi-dev/relic-interface-system"><img src="https://img.shields.io/badge/HUD-RIS_v2.8.0-3df0ff?style=flat-square&amp;labelColor=120a0d" alt="Relic Interface System"></a>
+</div>
+
+<div align="center">
   <img src="assets/divider.svg" width="830" alt="">
 </div>
 
 <div align="center">
 {rows_joined}
-</div>
-
-<div align="center">
-  <a href="https://www.amazon.com/dp/B0H4RQMJG3"><img src="https://img.shields.io/badge/BOOK-Private_Agent_Systems-ff003c?style=flat-square&amp;labelColor=120a0d" alt="Private Agent Systems on Amazon"></a>
-  <a href="https://yuzushi-dev.github.io/Relic/"><img src="https://img.shields.io/badge/LIVE-Relic_demo-00e5ff?style=flat-square&amp;labelColor=120a0d" alt="Relic live demo"></a>
-  <a href="https://github.com/yuzushi-dev/Relic/stargazers"><img src="https://img.shields.io/github/stars/yuzushi-dev/Relic?style=flat-square&amp;label=RELIC&amp;color=ffe23a&amp;labelColor=120a0d" alt="Relic stars"></a>
-  <a href="https://github.com/yuzushi-dev/relic-interface-system"><img src="https://img.shields.io/badge/HUD-RIS_v2.8.0-3df0ff?style=flat-square&amp;labelColor=120a0d" alt="Relic Interface System"></a>
 </div>
 
 <div align="center">
